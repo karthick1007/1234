@@ -1,5 +1,5 @@
 import java.util.*;
-public class lar
+public class leap
 {
 public static void main(String args[])
 {
