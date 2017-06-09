@@ -5,19 +5,13 @@ public static void main(String args[])
 {
 Scanner s=new Scanner(System.in);
 int a=s.nextInt();
-int b=s.nextInt();
-int c=s.nextInt();
-if((a>b)&&(a>c))
+if(a%4==0)
 {
-System.out.println(a);
-}
-else if((b>a)&&(b>c))
-{
-System.out.println(b);
+  System.out.println("leap year");
 }
 else
 {
-System.out.println(c);
+System.out.println("not leap year");
 }
 }
 }
