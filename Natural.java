@@ -14,6 +14,6 @@ import java.util.*;
                 sum = sum +i;
                 i++;
             }
-            System.out.println("Sum of "+x+" numbers is :"+sum);
+            System.out.println(sum);
         }
     }
